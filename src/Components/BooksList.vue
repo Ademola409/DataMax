@@ -4,9 +4,9 @@
         <p v-else-if="!isLoading && error ">{{error}}</p>
         <p v-else-if="!isLoading && filteredUsers.length<1">No result found</p>
         <div v-else>
-            <div class="form">
+            <div class="formDiv">
                 <form>
-                    <label for="search">Search</label>
+                    <label for="search">earc</label>
                     <input type="text" id="search" v-model.trim="search">
                 </form>
             </div>
@@ -91,7 +91,7 @@ export default {
 </script>
 
 <style scoped>
-.form {
+.formDiv {
   display: flex;
   justify-content: flex-end;
 }
