@@ -6,7 +6,7 @@
         <div v-else>
             <div class="formDiv">
                 <form>
-                    <label for="search">earc</label>
+                    <label for="search">Search</label>
                     <input type="text" id="search" v-model.trim="search">
                 </form>
             </div>
