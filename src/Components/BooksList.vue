@@ -2,7 +2,7 @@
     <div>
         <p v-if="isLoading">Loading...</p>
         <p v-else-if="!isLoading && error ">{{error}}</p>
-        <p v-else-if="filteredUsers.length<1">No result found</p>
+        <p v-else-if="!isLoading && filteredUsers.length<1">No result found</p>
         <div v-else>
             <div class="form">
                 <form>
